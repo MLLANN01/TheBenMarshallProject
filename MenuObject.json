@@ -1,0 +1,52 @@
+{
+    "Restaraunt": "Tokyo",
+    "Appetizers": [
+        { "type": "home", "number": "7383627627" }
+    ],
+	"Drinks": 
+	[
+		{ 
+			"White Wine": [
+				{
+				}
+			],
+			"Red Wine": [
+				{
+				}
+			],
+			"Plum Wine": [
+				{
+				}
+			],
+			"Beer": [
+				{
+				}
+			],
+			"Sake": [
+				{
+				}
+			],
+			"Champagne": [
+				{
+				}
+			],
+			"Soft Drinks": [
+				{
+				}
+			],
+			"Juice": [
+				{
+				}
+			]
+		}
+	],
+    "Salads": [
+        { "type": "tuna tataki", "description": "bitch motha fucka" },
+		{ "type": "spicy sashimi salad", "description": "bitch motha fucka ass hole" },
+		{ "type": "sunomono", "description": "bitch motha fucka 3" },
+		{ "type": "ginger salad", "description": "bitch motha fucka" },
+		{ "type": "cucumber salad", "description": "bitch motha fucka" },
+		{ "type": "seaweed salad", "description": "bitch motha fucka" },
+		{ "type": "squid salad", "description": "bitch motha fucka" }
+    ]
+}
