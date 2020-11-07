@@ -1,52 +1,971 @@
 {
-    "Restaraunt": "Tokyo",
-    "Appetizers": [
-        { "type": "home", "number": "7383627627" }
-    ],
-	"Drinks": 
-	[
-		{ 
-			"White Wine": [
-				{
-				}
-			],
-			"Red Wine": [
-				{
-				}
-			],
-			"Plum Wine": [
-				{
-				}
-			],
-			"Beer": [
-				{
-				}
-			],
-			"Sake": [
-				{
-				}
-			],
-			"Champagne": [
-				{
-				}
-			],
-			"Soft Drinks": [
-				{
-				}
-			],
-			"Juice": [
-				{
-				}
-			]
-		}
-	],
-    "Salads": [
-        { "type": "tuna tataki", "description": "bitch motha fucka" },
-		{ "type": "spicy sashimi salad", "description": "bitch motha fucka ass hole" },
-		{ "type": "sunomono", "description": "bitch motha fucka 3" },
-		{ "type": "ginger salad", "description": "bitch motha fucka" },
-		{ "type": "cucumber salad", "description": "bitch motha fucka" },
-		{ "type": "seaweed salad", "description": "bitch motha fucka" },
-		{ "type": "squid salad", "description": "bitch motha fucka" }
-    ]
+  "Restaurant": "Tokyo",
+  "Drinks": [
+    {
+      "White Wine": [
+        {
+          "type": "Kendall Jackson Chardonnay",
+          "price": "9,37"
+        },
+        {
+          "type": "La Crema Chardonnay",
+          "price": "10,39"
+        },
+        {
+          "type": "Villa Maria Sauvignon blanc, New Zealand",
+          "price": "8,35"
+        },
+        {
+          "type": "Kim Crawford Sauvignon blanc, New Zealand",
+          "price": "9,37"
+        },
+        {
+          "type": "Chateau Ste Michelle Riesling Dry",
+          "price": "7,29"
+        },
+        {
+          "type": "Armani Pinot Grigio Venezie",
+          "price": "8,35"
+        }
+      ],
+      "Red Wine": [
+        {
+          "type": "Meiomi Pinot Noir, California",
+          "price": "10,45"
+        },
+        {
+          "type": "Deloach Pinot Noir, California",
+          "price": "8,35"
+        },
+        {
+          "type": "Columbia Crest H3 Cabernet, Washington",
+          "price": "9,36"
+        },
+        {
+          "type": "Josh Cellars Cabernet Sauvignon, California",
+          "price": "9,36"
+        },
+        {
+          "type": "Estancia Merlot, California",
+          "price": "8,33"
+        }
+      ],
+      "Plum Wine": [
+        {
+          "type": "Kinsum Plum",
+          "price": "8,28"
+        }
+      ],
+      "Beer": [
+        {
+          "type": "Sapporo",
+          "price": "5"
+        },
+        {
+          "type": "Kirin Ichiban",
+          "price": "5"
+        },
+        {
+          "type": "Asahi",
+          "price": "5"
+        },
+        {
+          "type": "Miller lite",
+          "price": "3.50"
+        },
+        {
+          "type": "Bud Light",
+          "price": "3.50"
+        },
+        {
+          "type": "Budweiser",
+          "price": "3.50"
+        },
+        {
+          "type": "Michelob Ultra",
+          "price": "4"
+        },
+        {
+          "type": "Sam Adams",
+          "price": "4"
+        },
+        {
+          "type": "Angry Orchard",
+          "price": "4"
+        },
+        {
+          "type": "Fat Tire",
+          "price": "4"
+        },
+        {
+          "type": "Corona",
+          "price": "5"
+        },
+        {
+          "type": "Stella",
+          "price": "5"
+        },
+        {
+          "type": "Blue Moon",
+          "price": "5"
+        }
+      ],
+      "Sake": [
+        {
+          "type": "House Sake",
+          "price": "6,9"
+        },
+        {
+          "type": "Sho chiku bai nigori",
+          "price": "11"
+        },
+        {
+          "type": "Sho chiku bai ginjo",
+          "price": "13"
+        },
+        {
+          "type": "Ozeki Karatamba",
+          "price": "17"
+        }
+      ],
+      "Sparkling Water": [
+        {
+          "type": "st. Pellegrino",
+          "price": "5"
+        }
+      ],
+      "Soft Drinks": [
+        {
+          "type": "Coke",
+          "price": "2.50"
+        },
+        {
+          "type": "Diet Coke",
+          "price": "2.50"
+        },
+        {
+          "type": "Sprite",
+          "price": "2.50"
+        },
+        {
+          "type": "Lemonade",
+          "price": "2.50"
+        },
+        {
+          "type": "Ramune",
+          "price": "2.50"
+        }
+      ],
+      "Tea": [
+        {
+          "type": "Iced tea",
+          "price": "2.00"
+        },
+        {
+          "type": "Iced green tea",
+          "price": "2.50"
+        },
+        {
+          "type": "Hot green tea",
+          "price": "2.50"
+        }
+      ],
+      "Juice": [
+        {
+          "type": "Pineapple",
+          "price": "3.50"
+        },
+        {
+          "type": "Cranberry",
+          "price": "3.50"
+        },
+        {
+          "type": "Apple",
+          "price": "3.50"
+        },
+        {
+          "type": "Orange",
+          "price": "3.50"
+        }
+      ]
+    }
+  ],
+  "Appetizers": [
+    {
+      "type": "nigiri platter",
+      "description": "6 pieces of chef's choice nigiri",
+      "price": "13"
+    },
+    {
+      "type": "sashimi platter",
+      "description": "9 pieces of chefs choice sashimi",
+      "price": "16"
+    },
+    {
+      "type": "poke bowls",
+      "description": "Fresh fish of your choice slided and tossed in chefs special spicy sauce, served on bed of cucumbers. Tuna, yellowtail, or octopus",
+      "price": "14"
+    },
+    {
+      "type": "flaming hamachi",
+      "description": "Slices of yellowtail marinating in ponzu sauce topped with jalapeno and siracha",
+      "price": "12"
+    },
+    {
+      "type": "sunomono",
+      "description": "Slices of assorted fish tossed with a sweet rice vinaigrette on a bed of cucumbers ",
+      "price": "14"
+    },
+    {
+      "type": "stuffed peppers",
+      "description": "Large jalapenos stuffed with spicy tuna and cream cheese, topped with sauce",
+      "price": "9"
+    },
+    {
+      "type": "green mussels",
+      "description": "Succulent baked mussels topped with dynamite sauce",
+      "price": "9"
+    },
+    {
+      "type": "spicy salmon tartare",
+      "description": "Spicy salmon on top of cucumber slices",
+      "price": "10"
+    },
+    {
+      "type": "spicy crab crackers",
+      "description": "spicy crab, avocado and wasabi mayo on top of wonton chips",
+      "price": "10"
+    },
+    {
+      "type": "edamame",
+      "description": "Boiled soybeans, tossed in salt",
+      "price": "4"
+    },
+    {
+      "type": "sauteed edamame",
+      "description": "Boiled soybeans tossed in garlic, butter and soy sauce",
+      "price": "6"
+    },
+    {
+      "type": "gyoza",
+      "description": "Pan seared chicken dumplings",
+      "price": "6"
+    },
+    {
+      "type": "beef asparagus maki",
+      "description": "New York strip steak wrapped asparagus and crab topped with teriyaki sauce",
+      "price": "10"
+    },
+    {
+      "type": "shrimp tempura",
+      "description": "Shrimp tossed in tempura batter and lightly fried",
+      "price": "9"
+    },
+    {
+      "type": "calamari",
+      "description": "Calamari strips tossed in tempura batter and lightly fried",
+      "price": "7"
+    },
+    {
+      "type": "agedashi tofu",
+      "description": "Premium tofu lightly fried",
+      "price": "7"
+    },
+    {
+      "type": "sweet potato fries",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "Salads": [
+    {
+      "type": "tuna tataki",
+      "description": "Seared, thinly sliced, served on bed of greens, topped with ponzu sauce. Tuna, Super white tuna, or Steak",
+      "price": "14"
+    },
+    {
+      "type": "spicy sashimi salad",
+      "description": "Sliced assortment of fish, asparagus and avocado served on bed of mixed greens topped with sauce",
+      "price": "15"
+    },
+    {
+      "type": "sunomono",
+      "description": "Slices of assorted fish tossed with a sweet rice vinaigrette on a bed of cucumbers",
+      "price": "14"
+    },
+    {
+      "type": "ginger salad",
+      "description": "Lettuce served with house made ginger dressing",
+      "price": "2.50"
+    },
+    {
+      "type": "cucumber salad",
+      "description": "Sliced cucumbers, radish, sesame seeds with ponzu sauce",
+      "price": "5 add Kani 1"
+    },
+    {
+      "type": "seaweed salad",
+      "description": "Marinated Seaweed Served on radish",
+      "price": "6"
+    },
+    {
+      "type": "squid salad",
+      "description": "Marinated squid served on radish",
+      "price": "7"
+    }
+  ],
+  "Soups": [
+    {
+      "type": "nebayki udon",
+      "description": "Wheat noodles in Japanese broth served with shrimp, chicken and veggies with light tempura on the side",
+      "price": "16"
+    },
+    {
+      "type": "tempura udon",
+      "description": "Wheat noodles in Japanese broth served with veggies and Tempura shrimp and vegetables on the side",
+      "price": "14"
+    },
+    {
+      "type": "vegetable udon",
+      "description": "Wheat noodles in Japanese broth served with veggies and Tempura vegetables on the side",
+      "price": "12"
+    },
+    {
+      "type": "veggie miso",
+      "description": "Tofu and vegetables served in bowl of miso",
+      "price": "8"
+    },
+    {
+      "type": "miso soup",
+      "description": "Traditional Japanese soup",
+      "price": "2.50"
+    },
+    {
+      "type": "chicken mushroom soup",
+      "description": "Chicken broth soup with sliced mushrooms",
+      "price": "2.50"
+    }
+  ],
+  "Signature Rolls": [
+    {
+      "type": "derby roll",
+      "description": "Spicy crab, avocado topped with seared scallop and shrimp. Eel and dynamite sauce",
+      "price": "15"
+    },
+    {
+      "type": "victory roll",
+      "description": "Fried shrimp, spicy crab, avocado topped with baked salmon. Dynamite sauce, eel sauce, and spicy mayo",
+      "price": "15"
+    },
+    {
+      "type": "mango tango",
+      "description": "Fried crab, avocado, cucumber topped with fresh mango.  Eel sauce and wasabi sauce",
+      "price": "13"
+    },
+    {
+      "type": "butterfly",
+      "description": "Fried shrimp, spicy crab, and cucumber topped with tuna, salmon, super white tuna, shrimp, eel, and avocado. Eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "party",
+      "description": "Tuna, salmon, avocado, cucumber, cilantro, and jalapeno.  Spicy mayo",
+      "price": "14"
+    },
+    {
+      "type": "ecuador",
+      "description": "Yellow tail, tuna, jalapeno, cilantro, cucumber, avocado topped with caviar and tempura crunch.  Wasabi sauce, spicy mayo, and sriracha",
+      "price": "15"
+    },
+    {
+      "type": "sunset",
+      "description": "Avocado, crab, cucumber topped with with salmon and thinly sliced lemon.",
+      "price": "13"
+    },
+    {
+      "type": "heaven",
+      "description": "Spicy tuna, avocado, cream cheese, asparagus, shrimp, tempura flakes, and caviar wrapped in soy paper. Wasabi sauce and eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "cherry blossom",
+      "description": "Salmon and avocado topped with tuna and caviar",
+      "price": "14"
+    },
+    {
+      "type": "crystal",
+      "description": "Tuna, baby greens, asparagus, crab, avocado, cucumber wrapped in rice paper.  Seafood sauce and eel sauce",
+      "price": "13"
+    },
+    {
+      "type": "tokyo love story",
+      "description": "Tuna, asparagus, avocado, and cucumber wrapped in soy paper and topped with spicy tuna and tempura crunch.  Wasabi mayo and eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "cardinal",
+      "description": "Smoked salmon, cream cheese, cucumber, avocado topped with salmon, masago, and tempura crunch. wasabi mayo and eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "tiger roll",
+      "description": "Fried shrimp, spicy crab, cucumber topped with cooked shrimp and avocado. Eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "Rainbow roll",
+      "description": "Avocado, crab, cucumber topped with salmon, yellowtail, tuna eel, and shrimp",
+      "price": "14"
+    },
+    {
+      "type": "Tuna 3-way",
+      "description": "Spicy tuna, cucumber topped with super white tuna and masago",
+      "price": "13"
+    },
+    {
+      "type": "VIP",
+      "description": "Fried shrimp, spicy crab, and avocado topped with seared salmon and tempura flakes. Eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "Playgirl",
+      "description": "Fried shrimp and avocado topped with super white tuna and tempura flakes. Eel sauce and Japanese mayo",
+      "price": "13"
+    },
+    {
+      "type": "Rock and Roll",
+      "description": "Fried shrimp, spicy tuna, and cucumber topped with spicy mayo and tempura flakes.  Eel sauce, spicy mayo, and wasabi sauce",
+      "price": "14"
+    },
+    {
+      "type": "Chili Thai roll",
+      "description": "Spicy tuna and avocado topped with red snapper. Sweet chili sauce",
+      "price": "14"
+    },
+    {
+      "type": "Playboy roll",
+      "description": "Fried shrimp and avocado topped with tuna and tempura flakes. Eel sauce and Japanese mayo",
+      "price": "13"
+    },
+    {
+      "type": "Gypsy",
+      "description": "Fried salmon, spicy crab, and avocado topped with fresh salmon and cream cheese.  Served with crab and seaweed salad mix.  Eel sauce",
+      "price": "13"
+    },
+    {
+      "type": "Thunder",
+      "description": "Fried shrimp and avocado topped with tuna, tempura flakes, and masago. Eel sauce",
+      "price": "13"
+    },
+    {
+      "type": "Summer roll",
+      "description": "Salmon, tuna, yellowtail, avocado, and spicy crab wrapped in cucumber. Ponzu sauce",
+      "price": "13"
+    }
+  ],
+  "Cooked Rolls": [
+    {
+      "type": "Temptation",
+      "description": "Spicy crab, asparagus, fried shrimp, and cream cheese topped with crab and tempura flakes. Wasabi mayo, spicy mayo, and eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "Volcano",
+      "description": "Shrimp, eel, and cucumber topped with avocado and baked spicy crab. Eel sauce and wasabi mayo",
+      "price": "15"
+    },
+    {
+      "type": "Red Bull",
+      "description": "Fried crab, avocado, asparagus, and cream cheese topped with seared steak. Wasabi sauce and eel sauce",
+      "price": "14"
+    },
+    {
+      "type": "Big Mouth",
+      "description": "Fried spicy tuna, avocado, and spicy crab. Eel sauce and spicy mayo",
+      "price": "11"
+    },
+    {
+      "type": "Red Phoenix",
+      "description": "Fried asparagus, jalapeno, avocado, and cucumber topped with spicy crab and thin-sliced jalapenos. Sriracha",
+      "price": "14"
+    },
+    {
+      "type": "Caterpillar",
+      "description": "Soft-shell crab, spicy crab, cucumber, and avocado topped with eel, avocado, and masago",
+      "price": "15"
+    },
+    {
+      "type": "Godzilla",
+      "description": "Spicy crab, fried shrimp, asparagus, and cream cheese topped with whole fresh-water eel and caviar. Eel sauce",
+      "price": "19"
+    }
+  ],
+  "Deep Fried Rolls": [
+    {
+      "type": "Urban Heat",
+      "description": "Spicy crab, shrimp, asparagus, jalapeno, and cream cheese. Spicy mayo and eel sauce",
+      "price": "13"
+    },
+    {
+      "type": "Las Vegas",
+      "description": "Salmon, avocado, and cream cheese. Spicy mayo and eel sauce",
+      "price": "12"
+    },
+    {
+      "type": "Hurricane",
+      "description": "Tuna, salmon, yellowtail, crab, avocado, and cream cheese.  Spicy mayo and eel sauce",
+      "price": "13"
+    },
+    {
+      "type": "Hollywood",
+      "description": "Crab, shrimp, asparagus, and cream cheese. Eel sauce and spicy mayo",
+      "price": "12"
+    },
+    {
+      "type": "Heart Attack",
+      "description": "Spicy tuna, jalapeno, and cream cheese. Eel sauce and spicy mayo",
+      "price": "12"
+    },
+    {
+      "type": "New Orleans",
+      "description": "Spicy crawfish, jalapeno, and cream cheese.  Eel sauce and spicy mayo",
+      "price": "12"
+    },
+    {
+      "type": "Sunday Morning",
+      "description": "Salmon and cream cheese. Eel sauce and sriracha",
+      "price": "8"
+    }
+  ],
+  "Classic Rolls": [
+    {
+      "type": "California Roll",
+      "description": "Cucumber, avocado, and crab topped with caviar",
+      "price": "6.50"
+    },
+    {
+      "type": "Alaska Roll",
+      "description": "Salmon, avocado, and cucumber",
+      "price": "8"
+    },
+    {
+      "type": "Philadelphia Roll",
+      "description": "Smoked salmon and cream cheese",
+      "price": "8"
+    },
+    {
+      "type": "Crunch Munch",
+      "description": "Spicy crab and avocado, topped with shrimp and tempura flakes",
+      "price": "13"
+    },
+    {
+      "type": "Rookie",
+      "description": "Spicy crab and cucumber topped with avocado. Eel sauce",
+      "price": "12"
+    },
+    {
+      "type": "Spicy Tuna Roll",
+      "description": "Tuna and cucumber",
+      "price": "8"
+    },
+    {
+      "type": "Spicy Salmon Roll",
+      "description": "Salmon and cucumber",
+      "price": "8"
+    },
+    {
+      "type": "Spicy Yellowtail Roll",
+      "description": "Yellowtail and cucumber",
+      "price": "8"
+    },
+    {
+      "type": "Yum Yum",
+      "description": "Spicy crab and cucumber",
+      "price": "8"
+    },
+    {
+      "type": "Spider Roll",
+      "description": "Soft-shell crab, avocado, cucumber, crab, and caviar",
+      "price": "11"
+    },
+    {
+      "type": "Tekka Maki",
+      "description": "Tuna",
+      "price": "6"
+    },
+    {
+      "type": "Salmon Roll",
+      "description": "Salmon",
+      "price": "6"
+    },
+    {
+      "type": "Negi Hamachi",
+      "description": "Yellowtail and scallions",
+      "price": "8"
+    },
+    {
+      "type": "Tempura Shrimp Roll",
+      "description": "Fried shrimp, avocado, cucumber, crab, and caviar",
+      "price": "9.50"
+    },
+    {
+      "type": "Sakura",
+      "description": "Eel, fried shrimp and, cucumber topped with spicy tuna and avocado",
+      "price": "14"
+    },
+    {
+      "type": "Dragon Roll",
+      "description": "Eel and cucumber topped with avocado. Eel sauce",
+      "price": "13"
+    }
+  ],
+  "Vegetarian Rolls": [
+    {
+      "type": "Vegetarian Roll",
+      "description": "Mango, baby greens, asparagus, avocado, and radish wrapped in cucumber. Ponzu sauce",
+      "price": "13"
+    },
+    {
+      "type": "Veggie Roll",
+      "description": "Japanese veggies, cucumber, and asparagus topped with avocado",
+      "price": "11"
+    },
+    {
+      "type": "Fried Asparagus & Avocado",
+      "description": "",
+      "price": "7"
+    },
+    {
+      "type": "Sweet Potato",
+      "description": "",
+      "price": "6"
+    },
+    {
+      "type": "Mango and Avocado",
+      "description": "",
+      "price": "7"
+    },
+    {
+      "type": "Asparagus Roll",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "Avocado Roll",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "Kampyo Roll",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "Kappa Maki Roll",
+      "description": "",
+      "price": "5"
+    }
+  ],
+  "Nigiri and Sashimi": [
+    {
+      "Raw": [
+        {
+          "type": "Maguro(Tuna)",
+          "price": "5.5"
+        },
+        {
+          "type": "Albacore(White Tuna)",
+          "price": "5"
+        },
+        {
+          "type": "Super White Tuna",
+          "price": "5.5"
+        },
+        {
+          "type": "Toro",
+          "price": "mkt"
+        },
+        {
+          "type": "Sake(Salmon)",
+          "price": "5"
+        },
+        {
+          "type": "Yellowtail",
+          "price": "5.5"
+        },
+        {
+          "type": "Hotate(Scallop)",
+          "price": "4.5"
+        },
+        {
+          "type": "Saba(Mackerel)",
+          "price": "4"
+        },
+        {
+          "type": "Tai(Red Snapper)",
+          "price": "4"
+        },
+        {
+          "type": "Ika(Squid)",
+          "price": "4.5"
+        }
+      ],
+      "Cooked": [
+        {
+          "type": "Unagi(Eel)",
+          "price": "5"
+        },
+        {
+          "type": "Smoked Salmon",
+          "price": "4.5"
+        },
+        {
+          "type": "Ebi(Shrimp)",
+          "price": "4"
+        },
+        {
+          "type": "Tako(Octopus)",
+          "price": "5"
+        },
+        {
+          "type": "Tamago(Egg)",
+          "price": "3"
+        },
+        {
+          "type": "Ika(Squid)",
+          "price": "4.5"
+        }
+      ],
+      "roe(egg)": [
+        {
+          "type": "Ikura(Salmon)",
+          "price": "4"
+        },
+        {
+          "type": "Masago(Smelt)",
+          "price": "4"
+        },
+        {
+          "type": "Tobiko(Flying Fish)",
+          "price": "4"
+        }
+      ]
+    }
+  ],
+  "Sushi Dinners": [
+    {
+      "type": "Sushi Deluxe",
+      "description": "10 Pieces of chef's choice nigiri, choice of tuna or salmon roll",
+      "price": "25"
+    },
+    {
+      "type": "Sashimi Deluxe",
+      "description": "Chef's choice of 5 fish, 3 pieces each",
+      "price": "27"
+    },
+    {
+      "type": "Sushi and Sashimi Deluxe",
+      "description": "Chef's special, 15 pieces sashimi and 6 pieces nigiri",
+      "price": "40"
+    },
+    {
+      "type": "Chirashi",
+      "description": "Assorted fish served on a bed of sushi rice",
+      "price": "21"
+    }
+  ],
+  "Hand Rolls": [
+    {
+      "type": "California",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "Spicy(Tuna, Salmon, Yellowtail)",
+      "description": "",
+      "price": "7.5"
+    },
+    {
+      "type": "Eel",
+      "description": "",
+      "price": "7"
+    },
+    {
+      "type": "Shrimp Tempura",
+      "description": "",
+      "price": "7"
+    }
+  ],
+  "Kitchen Dinners": [
+    {
+      "type": "Tempura Dinners",
+      "description": "Lightly batter and fried shrimp, veggie, or combination",
+      "price": "19,16,18"
+    },
+    {
+      "type": "yakisoba",
+      "description": "Noodles pan fried with onions, cabbage, and carrots with sweet and savory sauce. Veggie, chicken, or shrimp",
+      "price": "11,13,15"
+    },
+    {
+      "type": "bulgogi",
+      "description": "Thin sliced marinated beef served with grilled onion, carrots, and broccoli served with white rice",
+      "price": "17"
+    },
+    {
+      "type": "bibimbap",
+      "description": "Thin sliced marinated beef served on veggies and white rice, topped with fried egg",
+      "price": "20"
+    },
+    {
+      "type": "katsu",
+      "description": "Panko crusted chicken served with cabbage slaw and white rice. Chicken or beef",
+      "price": "17,19"
+    }
+  ],
+  "Hibachi Dinners": [
+    {
+      "type": "teriyaki chicken",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "18"
+    },
+    {
+      "type": "teriyaki salmon",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "20"
+    },
+    {
+      "type": "grilled shrimp",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "23"
+    },
+    {
+      "type": "new york steak",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "21"
+    },
+    {
+      "type": "tuna steak",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "23"
+    },
+    {
+      "type": "grilled calamari",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "18"
+    },
+    {
+      "type": "vegetarian",
+      "description": "Served with ginger salad, miso soup, fried rice and grilled vegetables",
+      "price": "15"
+    }
+  ],
+  "Kids Hibachi Dinners": [
+    {
+      "type": "teriyaki chicken",
+      "description": "Served with choice of ginger salad or miso soup with fried rice and grilled vegetables",
+      "price": "12"
+    },
+    {
+      "type": "steak",
+      "description": "Served with choice of ginger salad or miso soup with fried rice and grilled vegetables",
+      "price": "13"
+    },
+    {
+      "type": "grilled shrimp",
+      "description": "Served with choice of ginger salad or miso soup with fried rice and grilled vegetables",
+      "price": "15"
+    },
+    {
+      "type": "chicken nuggets",
+      "description": "Served with white rice only",
+      "price": "9"
+    },
+    {
+      "type": "tempura chicken",
+      "description": "Served with choice of ginger salad or miso soup with fried rice and grilled vegetables",
+      "price": "12"
+    }
+  ],
+  "Fried Rice": [
+    {
+      "type": "fried rice",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "veggie",
+      "description": "Broccoli and fried rice",
+      "price": "6"
+    },
+    {
+      "type": "chicken",
+      "description": "chicken and fried rice",
+      "price": "7"
+    },
+    {
+      "type": "shrimp",
+      "description": "shrimp and fried rice",
+      "price": "9"
+    },
+    {
+      "type": "steak",
+      "description": "steak and fried rice",
+      "price": "9"
+    },
+    {
+      "type": "combination",
+      "description": "Steak, chicken, and shrimp on top of fried rice",
+      "price": "11"
+    }
+  ],
+  "Side orders": [
+    {
+      "type": "chicken",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "salmon",
+      "description": "",
+      "price": "8"
+    },
+    {
+      "type": "shrimp",
+      "description": "",
+      "price": "9"
+    },
+    {
+      "type": "steak",
+      "description": "",
+      "price": "8"
+    },
+    {
+      "type": "calamari",
+      "description": "",
+      "price": "9"
+    },
+    {
+      "type": "additional sauce",
+      "description": "",
+      "price": ".5"
+    }
+  ],
+  "Desserts": [
+    {
+      "type": "tiramisu",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "creme brulee",
+      "description": "",
+      "price": "5"
+    },
+    {
+      "type": "tempura ice cream",
+      "description": "",
+      "price": "5"
+    }
+  ]
 }
