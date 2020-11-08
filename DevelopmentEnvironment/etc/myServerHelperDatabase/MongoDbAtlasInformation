@@ -1,0 +1,9 @@
+MongoDB
+
+Admin 
+Username: admin
+Password: 3P3LNG3Amgz9Jnv
+
+Set Up Mongo Shell On Your Computer!!!!
+
+Connection String for Mongo Shell: mongo "mongodb+srv://cluster0.cvzfm.mongodb.net/server_helper" --username admin
